@@ -17,7 +17,7 @@ app.get("/authors",logger,function(req,res){
 })
 
 function logger(req,res,next){
-    console.log(req.path)
+    console.log("req.path: ",req.path)
     next();
     // console.log("after logger")
 }
