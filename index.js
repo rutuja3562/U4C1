@@ -12,7 +12,7 @@ app.get("/libraries",logger,function(req,res){
     return res.send({route: "/libraries", permission: true})
 })
 app.get("/authors",logger,function(req,res){
-    console.log("route: /authors")
+      console.log("route: /libraries")
     return res.send({route: "/authors", permission: true})
 })
 
